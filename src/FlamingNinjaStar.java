@@ -1,5 +1,6 @@
 import java.awt.Color;
 
+import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Tortoise;
 
 /*** Teacher's note ***/
@@ -14,7 +15,8 @@ public class FlamingNinjaStar {
 		int flameSize = 200;		//the length of the flaming arms
 
 		// *14. Use the methods setX and setY to move the ninja star into the center of the screen
-		
+		Tortoise.setX(1000);
+		Tortoise.setY(400);
 		// *15. Make some adjustments to see what other kinds of shapes you can make.
 
 		// 1. Show the Tortoise
@@ -22,14 +24,14 @@ Tortoise.show();
 		// 12. Set the tortoise speed to 10
 Tortoise.setSpeed(10);
 		// 13. Make all the code below repeat 25 times
-for (int i = 0; i < 25; i++) {
+for (int i = 0; i < 1250; i++) {
 	
-	Tortoise.setPenColor(Color.BLACK);
+	
 			// 2. Turn the tortoise 1/8 of a circle
 		Tortoise.turn(360/8);
 			// 3. Move the tortoise 64 pixels
 Tortoise.move(64);
-			
+Tortoise.setPenColor(Colors.Yellows.Gold);
 			// 4. Turn the tortoise 40 degrees to the LEFT. (Negative numbers will turn the tortoise counter-clockwise.)
 			Tortoise.turn(-40);
 			// 5. Move the tortoise the distance in the variable flameSize
@@ -38,7 +40,7 @@ Tortoise.move(64);
 			Tortoise.turn(170);
 			// 7. Move the tortoise the distance in the variable flameSize (again)
 			Tortoise.move(flameSize);
-			Tortoise.setPenColor(Color.YELLOW);
+			Tortoise.setPenColor(Color.BLACK);
 			// 8. Turn the tortoise 64 degrees to the right
 			Tortoise.turn(64);
 			// 9. Move the tortoise the distance in the variable baseSize
