@@ -1,0 +1,4 @@
+
+public class worlddomination2 {
+
+}
