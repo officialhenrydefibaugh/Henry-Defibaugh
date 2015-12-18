@@ -48,7 +48,7 @@ public class christmastree {
 		// 1. Move the tortoise half the width of the tree
 		Tortoise.move(treeWidth/2);
 		// 2. Change the tortoise so that it is pointing straight down
-		Tortoise.turn(180);
+		Tortoise.turn(90);
 		// 4. Set the pen width to the tree width divided by 10
 		Tortoise.setPenWidth(treeWidth/10);
 		// 5. Change the color of the line the tortoise draws to brown
